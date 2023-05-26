@@ -56,44 +56,10 @@ struct GameMonitorGraphs: View {
 
 extension GameMonitorGraphs {
     func refreshWeek() {
-//        let sun = Sunday(context: managedObjectContext)
-//        sun.nintendo = Int32(0)
-//        sun.playstation = Int32(0)
-//        sun.xbox = Int32(0)
-//
-//        let mon = Monday(context: managedObjectContext)
-//        mon.nintendo = Int32(0)
-//        mon.playstation = Int32(0)
-//        mon.xbox = Int32(0)
-//
-//        let tues = Tuesday(context: managedObjectContext)
-//        tues.nintendo = Int32(0)
-//        tues.playstation = Int32(0)
-//        tues.xbox = Int32(0)
-//
-//        let wed = Wednesday(context: managedObjectContext)
-//        wed.nintendo = Int32(0)
-//        wed.playstation = Int32(0)
-//        wed.xbox = Int32(0)
-//
-//        let thurs = Thursday(context: managedObjectContext)
-//        thurs.nintendo = Int32(0)
-//        thurs.playstation = Int32(0)
-//        thurs.xbox = Int32(0)
-//
-//        let fri = Friday(context: managedObjectContext)
-//        fri.nintendo = Int32(0)
-//        fri.playstation = Int32(0)
-//        fri.xbox = Int32(0)
-//
-//        let sat = Saturday(context: managedObjectContext)
-//        sat.nintendo = Int32(0)
-//        sat.playstation = Int32(0)
-//        sat.xbox = Int32(0)
-        
         for i in sundays {
             managedObjectContext.delete(i)
         }
+        
         
         for i in mondays {
             managedObjectContext.delete(i)
@@ -119,12 +85,51 @@ extension GameMonitorGraphs {
             managedObjectContext.delete(i)
         }
         
+        replaceWeek()
+        
         do {
             try managedObjectContext.save()
             print("Data saved!")
         } catch {
                 fatalError("Error: \(error.localizedDescription)")
         }
+    }
+    
+    func replaceWeek() {
+        let sun = Sunday(context: managedObjectContext)
+        sun.nintendo = Int32(0)
+        sun.playstation = Int32(0)
+        sun.xbox = Int32(0)
+
+        let mon = Monday(context: managedObjectContext)
+        mon.nintendo = Int32(0)
+        mon.playstation = Int32(0)
+        mon.xbox = Int32(0)
+
+        let tues = Tuesday(context: managedObjectContext)
+        tues.nintendo = Int32(0)
+        tues.playstation = Int32(0)
+        tues.xbox = Int32(0)
+
+        let wed = Wednesday(context: managedObjectContext)
+        wed.nintendo = Int32(0)
+        wed.playstation = Int32(0)
+        wed.xbox = Int32(0)
+
+        let thurs = Thursday(context: managedObjectContext)
+        thurs.nintendo = Int32(0)
+        thurs.playstation = Int32(0)
+        thurs.xbox = Int32(0)
+
+        let fri = Friday(context: managedObjectContext)
+        fri.nintendo = Int32(0)
+        fri.playstation = Int32(0)
+        fri.xbox = Int32(0)
+
+        let sat = Saturday(context: managedObjectContext)
+        sat.nintendo = Int32(0)
+        sat.playstation = Int32(0)
+        sat.xbox = Int32(0)
     }
 }
 

@@ -18,20 +18,7 @@
 		6157406A299D5435004EEA07 /* GameMonitorPullUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61574069299D5435004EEA07 /* GameMonitorPullUp.swift */; };
 		6157406D29A68CF6004EEA07 /* GameMonitorList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6157406C29A68CF6004EEA07 /* GameMonitorList.swift */; };
 		6157407129AD13D4004EEA07 /* Stopwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6157407029AD13D4004EEA07 /* Stopwatch.swift */; };
-		6160B6C429F6DCEE00329DF1 /* Monday+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6160B6C229F6DCEE00329DF1 /* Monday+CoreDataClass.swift */; };
-		6160B6C529F6DCEE00329DF1 /* Monday+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6160B6C329F6DCEE00329DF1 /* Monday+CoreDataProperties.swift */; };
-		6160B6D129F6DDD200329DF1 /* Friday+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6160B6CF29F6DDD200329DF1 /* Friday+CoreDataClass.swift */; };
-		6160B6D229F6DDD200329DF1 /* Friday+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6160B6D029F6DDD200329DF1 /* Friday+CoreDataProperties.swift */; };
-		6160B6D529F981E100329DF1 /* Tuesday+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6160B6D329F981E100329DF1 /* Tuesday+CoreDataClass.swift */; };
-		6160B6D629F981E100329DF1 /* Tuesday+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6160B6D429F981E100329DF1 /* Tuesday+CoreDataProperties.swift */; };
-		6160B6D929F984C900329DF1 /* Wednesday+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6160B6D729F984C900329DF1 /* Wednesday+CoreDataClass.swift */; };
-		6160B6DA29F984C900329DF1 /* Wednesday+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6160B6D829F984C900329DF1 /* Wednesday+CoreDataProperties.swift */; };
-		6160B6DD29F9851C00329DF1 /* Thursday+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6160B6DB29F9851C00329DF1 /* Thursday+CoreDataClass.swift */; };
-		6160B6DE29F9851C00329DF1 /* Thursday+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6160B6DC29F9851C00329DF1 /* Thursday+CoreDataProperties.swift */; };
-		6160B6E129F9856000329DF1 /* Sunday+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6160B6DF29F9856000329DF1 /* Sunday+CoreDataClass.swift */; };
-		6160B6E229F9856000329DF1 /* Sunday+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6160B6E029F9856000329DF1 /* Sunday+CoreDataProperties.swift */; };
-		6160B6E529F985AB00329DF1 /* Saturday+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6160B6E329F985AB00329DF1 /* Saturday+CoreDataClass.swift */; };
-		6160B6E629F985AB00329DF1 /* Saturday+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6160B6E429F985AB00329DF1 /* Saturday+CoreDataProperties.swift */; };
+		6160B6C429F6DCEE00329DF1 /* WeekdayModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6160B6C229F6DCEE00329DF1 /* WeekdayModels.swift */; };
 		619DC8B229AD7A6400905FFA /* StopWatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619DC8B129AD7A6300905FFA /* StopWatchManager.swift */; };
 		619DC8B429B2A1B200905FFA /* FadeoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619DC8B329B2A1B200905FFA /* FadeoutManager.swift */; };
 		619DC8B629B3D42400905FFA /* TimePlayed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619DC8B529B3D42400905FFA /* TimePlayed.swift */; };
@@ -54,20 +41,7 @@
 		61574069299D5435004EEA07 /* GameMonitorPullUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMonitorPullUp.swift; sourceTree = "<group>"; };
 		6157406C29A68CF6004EEA07 /* GameMonitorList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMonitorList.swift; sourceTree = "<group>"; };
 		6157407029AD13D4004EEA07 /* Stopwatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stopwatch.swift; sourceTree = "<group>"; };
-		6160B6C229F6DCEE00329DF1 /* Monday+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Monday+CoreDataClass.swift"; sourceTree = "<group>"; };
-		6160B6C329F6DCEE00329DF1 /* Monday+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Monday+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		6160B6CF29F6DDD200329DF1 /* Friday+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Friday+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
-		6160B6D029F6DDD200329DF1 /* Friday+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Friday+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
-		6160B6D329F981E100329DF1 /* Tuesday+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tuesday+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
-		6160B6D429F981E100329DF1 /* Tuesday+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tuesday+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
-		6160B6D729F984C900329DF1 /* Wednesday+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Wednesday+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
-		6160B6D829F984C900329DF1 /* Wednesday+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Wednesday+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
-		6160B6DB29F9851C00329DF1 /* Thursday+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thursday+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
-		6160B6DC29F9851C00329DF1 /* Thursday+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thursday+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
-		6160B6DF29F9856000329DF1 /* Sunday+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sunday+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
-		6160B6E029F9856000329DF1 /* Sunday+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sunday+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
-		6160B6E329F985AB00329DF1 /* Saturday+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Saturday+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
-		6160B6E429F985AB00329DF1 /* Saturday+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Saturday+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		6160B6C229F6DCEE00329DF1 /* WeekdayModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayModels.swift; sourceTree = "<group>"; };
 		619DC8B129AD7A6300905FFA /* StopWatchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchManager.swift; sourceTree = "<group>"; };
 		619DC8B329B2A1B200905FFA /* FadeoutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeoutManager.swift; sourceTree = "<group>"; };
 		619DC8B529B3D42400905FFA /* TimePlayed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TimePlayed.swift; path = GameMonitor/GameMonitors/TimePlayed.swift; sourceTree = SOURCE_ROOT; };
@@ -146,28 +120,6 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		6160B6C629F6DD1200329DF1 /* WeekModels */ = {
-			isa = PBXGroup;
-			children = (
-				6160B6DF29F9856000329DF1 /* Sunday+CoreDataClass.swift */,
-				6160B6E029F9856000329DF1 /* Sunday+CoreDataProperties.swift */,
-				6160B6C229F6DCEE00329DF1 /* Monday+CoreDataClass.swift */,
-				6160B6C329F6DCEE00329DF1 /* Monday+CoreDataProperties.swift */,
-				6160B6D329F981E100329DF1 /* Tuesday+CoreDataClass.swift */,
-				6160B6D429F981E100329DF1 /* Tuesday+CoreDataProperties.swift */,
-				6160B6D729F984C900329DF1 /* Wednesday+CoreDataClass.swift */,
-				6160B6D829F984C900329DF1 /* Wednesday+CoreDataProperties.swift */,
-				6160B6DB29F9851C00329DF1 /* Thursday+CoreDataClass.swift */,
-				6160B6DC29F9851C00329DF1 /* Thursday+CoreDataProperties.swift */,
-				6160B6CF29F6DDD200329DF1 /* Friday+CoreDataClass.swift */,
-				6160B6D029F6DDD200329DF1 /* Friday+CoreDataProperties.swift */,
-				6160B6E329F985AB00329DF1 /* Saturday+CoreDataClass.swift */,
-				6160B6E429F985AB00329DF1 /* Saturday+CoreDataProperties.swift */,
-			);
-			name = WeekModels;
-			path = Models/WeekModels;
-			sourceTree = "<group>";
-		};
 		61A29A03298AD90600517731 = {
 			isa = PBXGroup;
 			children = (
@@ -192,7 +144,7 @@
 				61574068299D4CB7004EEA07 /* GameMonitors */,
 				6157405C298D8342004EEA07 /* Helpers */,
 				61574055298ADDD0004EEA07 /* Models */,
-				6160B6C629F6DD1200329DF1 /* WeekModels */,
+				6160B6C229F6DCEE00329DF1 /* WeekdayModels.swift */,
 				6157406B29A686DF004EEA07 /* Resources */,
 				61A29A13298AD90700517731 /* Assets.xcassets */,
 				61DEEF6429F1AFDE00AFFF2B /* Extensions.swift */,
@@ -289,32 +241,19 @@
 				61574057298ADE51004EEA07 /* GameMonitorDetail.swift in Sources */,
 				619DC8B229AD7A6400905FFA /* StopWatchManager.swift in Sources */,
 				61574059298C3E20004EEA07 /* GameMonitorGraphs.swift in Sources */,
-				6160B6D229F6DDD200329DF1 /* Friday+CoreDataProperties.swift in Sources */,
-				6160B6E129F9856000329DF1 /* Sunday+CoreDataClass.swift in Sources */,
 				6157406D29A68CF6004EEA07 /* GameMonitorList.swift in Sources */,
 				61574065299AA419004EEA07 /* RectangleDivider.swift in Sources */,
-				6160B6C529F6DCEE00329DF1 /* Monday+CoreDataProperties.swift in Sources */,
 				619DC8B629B3D42400905FFA /* TimePlayed.swift in Sources */,
 				6157407129AD13D4004EEA07 /* Stopwatch.swift in Sources */,
-				6160B6DE29F9851C00329DF1 /* Thursday+CoreDataProperties.swift in Sources */,
-				6160B6DD29F9851C00329DF1 /* Thursday+CoreDataClass.swift in Sources */,
 				61A29A12298AD90600517731 /* ContentView.swift in Sources */,
-				6160B6C429F6DCEE00329DF1 /* Monday+CoreDataClass.swift in Sources */,
+				6160B6C429F6DCEE00329DF1 /* WeekdayModels.swift in Sources */,
 				6157405B298D833F004EEA07 /* GoButton.swift in Sources */,
-				6160B6D529F981E100329DF1 /* Tuesday+CoreDataClass.swift in Sources */,
-				6160B6D629F981E100329DF1 /* Tuesday+CoreDataProperties.swift in Sources */,
 				61C2522029DB268F004727ED /* PersistenceController.swift in Sources */,
 				61A29A10298AD90600517731 /* GameMonitorApp.swift in Sources */,
 				61574067299D4C5B004EEA07 /* GameMonitorRow.swift in Sources */,
 				619DC8B429B2A1B200905FFA /* FadeoutManager.swift in Sources */,
-				6160B6D129F6DDD200329DF1 /* Friday+CoreDataClass.swift in Sources */,
 				61DEEF6529F1AFDE00AFFF2B /* Extensions.swift in Sources */,
 				61574063299AA1AD004EEA07 /* Details_Graphs.swift in Sources */,
-				6160B6DA29F984C900329DF1 /* Wednesday+CoreDataProperties.swift in Sources */,
-				6160B6E529F985AB00329DF1 /* Saturday+CoreDataClass.swift in Sources */,
-				6160B6E229F9856000329DF1 /* Sunday+CoreDataProperties.swift in Sources */,
-				6160B6D929F984C900329DF1 /* Wednesday+CoreDataClass.swift in Sources */,
-				6160B6E629F985AB00329DF1 /* Saturday+CoreDataProperties.swift in Sources */,
 				6157406A299D5435004EEA07 /* GameMonitorPullUp.swift in Sources */,
 				61C2521829B90136004727ED /* DynamicButton.swift in Sources */,
 			);
