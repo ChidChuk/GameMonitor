@@ -22,7 +22,6 @@
 		6160B6C429F6DCEE00329DF1 /* WeekdayModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6160B6C229F6DCEE00329DF1 /* WeekdayModels.swift */; };
 		619DC8B229AD7A6400905FFA /* StopWatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619DC8B129AD7A6300905FFA /* StopWatchManager.swift */; };
 		619DC8B429B2A1B200905FFA /* FadeoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619DC8B329B2A1B200905FFA /* FadeoutManager.swift */; };
-		619DC8B629B3D42400905FFA /* TimePlayed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619DC8B529B3D42400905FFA /* TimePlayed.swift */; };
 		61A29A10298AD90600517731 /* GameMonitorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A29A0F298AD90600517731 /* GameMonitorApp.swift */; };
 		61A29A12298AD90600517731 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A29A11298AD90600517731 /* ContentView.swift */; };
 		61A29A14298AD90700517731 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61A29A13298AD90700517731 /* Assets.xcassets */; };
@@ -46,7 +45,6 @@
 		6160B6C229F6DCEE00329DF1 /* WeekdayModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayModels.swift; sourceTree = "<group>"; };
 		619DC8B129AD7A6300905FFA /* StopWatchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchManager.swift; sourceTree = "<group>"; };
 		619DC8B329B2A1B200905FFA /* FadeoutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeoutManager.swift; sourceTree = "<group>"; };
-		619DC8B529B3D42400905FFA /* TimePlayed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TimePlayed.swift; path = GameMonitor/GameMonitors/TimePlayed.swift; sourceTree = SOURCE_ROOT; };
 		61A29A0C298AD90600517731 /* GameMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61A29A0F298AD90600517731 /* GameMonitorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMonitorApp.swift; sourceTree = "<group>"; };
 		61A29A11298AD90600517731 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,7 +95,6 @@
 				61574064299AA419004EEA07 /* RectangleDivider.swift */,
 				61574069299D5435004EEA07 /* GameMonitorPullUp.swift */,
 				6157407029AD13D4004EEA07 /* Stopwatch.swift */,
-				619DC8B529B3D42400905FFA /* TimePlayed.swift */,
 				61C2521729B90136004727ED /* DynamicButton.swift */,
 				6127C3092A2274CD00B78BA3 /* HapticManager.swift */,
 			);
@@ -246,7 +243,6 @@
 				61574059298C3E20004EEA07 /* GameMonitorGraphs.swift in Sources */,
 				6157406D29A68CF6004EEA07 /* GameMonitorList.swift in Sources */,
 				61574065299AA419004EEA07 /* RectangleDivider.swift in Sources */,
-				619DC8B629B3D42400905FFA /* TimePlayed.swift in Sources */,
 				6127C30A2A2274CD00B78BA3 /* HapticManager.swift in Sources */,
 				6157407129AD13D4004EEA07 /* Stopwatch.swift in Sources */,
 				61A29A12298AD90600517731 /* ContentView.swift in Sources */,
@@ -388,7 +384,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GameMonitor/Preview Content\"";
-				DEVELOPMENT_TEAM = 33RBW6J42A;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -417,7 +413,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GameMonitor/Preview Content\"";
-				DEVELOPMENT_TEAM = 33RBW6J42A;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

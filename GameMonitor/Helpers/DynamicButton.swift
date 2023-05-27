@@ -14,19 +14,28 @@ struct DynamicButton: View {
 
     var body: some View {
         if stopWatchManager.mode == .stopped {
-            Button(action: {self.stopWatchManager.start()}){
+            Button(action: {
+                self.stopWatchManager.start()
+                HapticManager.instance.impact(style: .heavy)
+            }){
                 GoButton(color:.blue, label:"Record", textSize: 60, scale: 0.7)
             }
         }
            
         if stopWatchManager.mode == .running{
-            Button(action:{self.stopWatchManager.pause()}){
+            Button(action:{
+                self.stopWatchManager.pause()
+                HapticManager.instance.impact(style: .soft)
+            }){
                 GoButton(color:.gradient1, label:"Pause", textSize: 60, scale: 0.7)
             }
         }
            
         if stopWatchManager.mode == .paused{
-            Button(action:{self.stopWatchManager.start()}){
+            Button(action:{
+                self.stopWatchManager.start()
+                HapticManager.instance.impact(style: .medium)
+            }){
                 GoButton(color:.blue, label:"Resume", textSize: 55, scale: 0.7)
             }
         }

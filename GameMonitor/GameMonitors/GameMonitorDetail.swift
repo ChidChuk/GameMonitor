@@ -42,12 +42,10 @@ struct GameMonitorDetail: View {
             
             if stopWatchManager.mode == .paused{
                 HStack(spacing:30){
-                    Button(action:{
-                        self.stopWatchManager.stop()
-                        HapticManager.instance.impact(style: .medium)
-                    }){
+                    Button(action:{self.stopWatchManager.stop()}){
                         Stop_Save_Button(text:"Reset")
                     }
+                    
                     Button(action:{self.saveToDate(device: deviceName, weekday: dayOfTheWeekString, seconds: Int32(stopWatchManager.secondsElapsed))}){
                         Stop_Save_Button(text: "Save")
                     }
@@ -57,9 +55,6 @@ struct GameMonitorDetail: View {
             if stopWatchManager.mode != .stopped {
                 Stopwatch(stopWatchManager: stopWatchManager)
             }
-            
-//            TimePlayed()
-//                .offset(y:-40)
             
             Spacer()
         }
