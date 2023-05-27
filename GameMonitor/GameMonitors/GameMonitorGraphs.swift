@@ -20,6 +20,9 @@ struct GameMonitorGraphs: View {
     @FetchRequest(entity: Friday.entity(), sortDescriptors: []) public var fridays: FetchedResults<Friday>
     @FetchRequest(entity: Saturday.entity(), sortDescriptors: []) public var saturdays: FetchedResults<Saturday>
     @FetchRequest(entity: Sunday.entity(), sortDescriptors: []) public var sundays: FetchedResults<Sunday>
+    /* A FetchRequest which appears in a bunch of my views and gets the Core Data entities and puts
+     their values into arrays; the values can be editted by picking them form the arrays
+     */
     
     var deviceUsage: [(String, Int32)]
     var device: String
@@ -47,7 +50,7 @@ struct GameMonitorGraphs: View {
                 
                 BarChartView(data: ChartData(values: deviceUsage), title: device, style: Styles.barChartStyleNeonBlueLight, form: ChartForm.extraLarge)
                     .padding()
-                
+                // A chart from the SwifuUICharts package that displays data in the format of (String, Double)
             }
         }
     }
@@ -94,6 +97,7 @@ extension GameMonitorGraphs {
                 fatalError("Error: \(error.localizedDescription)")
         }
     }
+// Function to delete and replace the current week ⬇️
     
     func replaceWeek() {
         let sun = Sunday(context: managedObjectContext)

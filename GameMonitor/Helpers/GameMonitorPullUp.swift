@@ -37,6 +37,7 @@ struct GameMonitorPullUp: View {
         )
     }
 }
+// An animated pull up tab with the usage graphs
 
 //struct GameMonitorPullUp_Previews: PreviewProvider {
 //    static var previews: some View {

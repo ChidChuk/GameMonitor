@@ -22,6 +22,9 @@ struct GameMonitorList: View {
     @FetchRequest(entity: Sunday.entity(), sortDescriptors: []) public var sundays: FetchedResults<Sunday>
     
     var body: some View {
+/* Here I make three arrays in the format of the SwiftUI Chart
+ which I pass to theGameMonitorGraphs view to make the charts
+ */
         let switchUsage: [(String, Int32)] =
         [
             ("Sunday", (sundays.count != 0 ? sundays[0].nintendo : Int32(0))),

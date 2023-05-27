@@ -30,7 +30,7 @@ struct GameMonitorDetail: View {
         let formatter = DateFormatter()
         formatter.dateFormat = "EEEE"
         return formatter
-    }()
+    }() // Very useful formatter that turns the day of the week into a usable String
     
     var deviceName: String
     
@@ -75,6 +75,7 @@ extension Color {
     static let gradient1 = Color("Gradient1")
     static let gradient2 = Color("Gradient2")
 }
+// Noah helped create thes custom gradients for the background of my view
 
 struct Stop_Save_Button: View {
     var text: String
@@ -93,10 +94,11 @@ struct Stop_Save_Button: View {
             .shadow(radius:20)
     }
 }
+// The view to create the reset and save buttons
 
 extension GameMonitorDetail {
     func saveToDate(device: String, weekday: String, seconds: Int32) {
-        stopWatchManager.save()
+        stopWatchManager.stop()
         
         if device == "Switch" {
             saveToSwitch(weekday: weekday, seconds: seconds)
@@ -116,6 +118,7 @@ extension GameMonitorDetail {
             print("Error: Failed to save new context, \(error.localizedDescription)")
         }
     }
+    // A function that saves based on the device; made out of three others, each which saves usage data to the date
     
     func saveToSwitch(weekday: String, seconds: Int32) {
         let monday = mondays[dayIdx]

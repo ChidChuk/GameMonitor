@@ -16,6 +16,8 @@ import Foundation
 import SwiftUI
 import CoreData
 
+// A class to create a stopwatch, recording in seconds, to record time spent playing a game
+
 class StopWatchManager: ObservableObject {
     @Environment(\.managedObjectContext) var managedObjectContext
     
@@ -39,20 +41,18 @@ class StopWatchManager: ObservableObject {
             self.secondsElapsed += 0.1
         }
     }
+    // Start the timer to record in seconds and change the state to a running one
     
     func pause() {
         timer.invalidate()
         mode = .paused
     }
+    // Pause the timer, keeping the seconds where they are at
     
     func stop() {
         timer.invalidate()
         secondsElapsed = 0
         mode = .stopped
     }
-    
-    func save() {
-        self.timePlayed += secondsElapsed
-        stop()
-    }
+    // Stop the timer and reset it
 }

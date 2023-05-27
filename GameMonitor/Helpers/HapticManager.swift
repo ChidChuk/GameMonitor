@@ -14,4 +14,5 @@ public class HapticManager {
         let generator = UIImpactFeedbackGenerator(style: style)
         generator.impactOccurred()
     }
+    // Creates a vibration that can have varying strengths
 }
