@@ -18,7 +18,7 @@ struct DynamicButton: View {
                 self.stopWatchManager.start()
                 HapticManager.instance.impact(style: .heavy)
             }){
-                GoButton(color:.blue, label:"Record", textSize: 60, scale: 0.7)
+                GoButton(color:.blue, label:"Record", textSize: 50, scale: 0.7)
             }
         }
            
@@ -27,7 +27,7 @@ struct DynamicButton: View {
                 self.stopWatchManager.pause()
                 HapticManager.instance.impact(style: .soft)
             }){
-                GoButton(color:.gradient1, label:"Pause", textSize: 60, scale: 0.7)
+                GoButton(color:.gradient1, label:"Pause", textSize: 50, scale: 0.7)
             }
         }
            
@@ -36,7 +36,7 @@ struct DynamicButton: View {
                 self.stopWatchManager.start()
                 HapticManager.instance.impact(style: .medium)
             }){
-                GoButton(color:.blue, label:"Resume", textSize: 55, scale: 0.7)
+                GoButton(color:.blue, label:"Resume", textSize: 50, scale: 0.7)
             }
         }
     }
