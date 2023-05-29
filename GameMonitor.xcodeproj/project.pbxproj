@@ -81,6 +81,7 @@
 				619DC8B129AD7A6300905FFA /* StopWatchManager.swift */,
 				61DEEF6129F1AE9200AFFF2B /* CDMain.xcdatamodeld */,
 				61C2521F29DB268F004727ED /* PersistenceController.swift */,
+				6160B6C229F6DCEE00329DF1 /* WeekdayModels.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -141,7 +142,6 @@
 				61574068299D4CB7004EEA07 /* GameMonitors */,
 				6157405C298D8342004EEA07 /* Helpers */,
 				61574055298ADDD0004EEA07 /* Models */,
-				6160B6C229F6DCEE00329DF1 /* WeekdayModels.swift */,
 				6157406B29A686DF004EEA07 /* Resources */,
 				61A29A13298AD90700517731 /* Assets.xcassets */,
 				61DEEF6429F1AFDE00AFFF2B /* Extensions.swift */,
