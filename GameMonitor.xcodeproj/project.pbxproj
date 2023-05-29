@@ -82,6 +82,7 @@
 				61DEEF6129F1AE9200AFFF2B /* CDMain.xcdatamodeld */,
 				61C2521F29DB268F004727ED /* PersistenceController.swift */,
 				6160B6C229F6DCEE00329DF1 /* WeekdayModels.swift */,
+				6127C3092A2274CD00B78BA3 /* HapticManager.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -94,7 +95,6 @@
 				61574069299D5435004EEA07 /* GameMonitorPullUp.swift */,
 				6157407029AD13D4004EEA07 /* Stopwatch.swift */,
 				61C2521729B90136004727ED /* DynamicButton.swift */,
-				6127C3092A2274CD00B78BA3 /* HapticManager.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
