@@ -40,7 +40,7 @@ struct GameMonitorGraphs: View {
                         .foregroundColor(.red)
                 }
                 .padding()
-            }
+            } // Function for developer to clear core Data and replace it with new entities
             
             VStack{
                 Text("This week")
