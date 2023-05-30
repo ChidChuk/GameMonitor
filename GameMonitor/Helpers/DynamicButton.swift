@@ -25,7 +25,7 @@ struct DynamicButton: View {
         if stopWatchManager.mode == .running{
             Button(action:{
                 self.stopWatchManager.pause()
-                HapticManager.instance.impact(style: .soft)
+                HapticManager.instance.impact(style: .heavy)
             }){
                 GoButton(color:.gradient1, label:"Pause", textSize: 50, scale: 0.7)
             }
@@ -34,7 +34,7 @@ struct DynamicButton: View {
         if stopWatchManager.mode == .paused{
             Button(action:{
                 self.stopWatchManager.start()
-                HapticManager.instance.impact(style: .medium)
+                HapticManager.instance.impact(style: .heavy)
             }){
                 GoButton(color:.blue, label:"Resume", textSize: 50, scale: 0.7)
             }
